@@ -1,0 +1,14 @@
+{
+  "name": "dont-forget-me",
+  "version": "1.0.0",
+  "description": "Just another todo list 🙄 This one is cool though 😎 ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "todo"
+  ],
+  "author": "Fabricio Waltrick",
+  "license": "ISC"
+}
