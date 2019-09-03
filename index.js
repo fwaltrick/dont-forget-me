@@ -56,6 +56,7 @@ newListForm.addEventListener( 'submit', e => {
   const listName = newListInput.value;
   if ( listName === null || listName === '' ) return
   const list = createList( listName )
+  selectedListId = list.id;
   newListInput.value = null;
   lists.push( list );
   saveAndRender();
